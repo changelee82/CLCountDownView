@@ -20,13 +20,14 @@
 
 @implementation CLCountdownView
 
+
 #pragma mark - 初始化
 
 /** 初始化方法，用于从代码中创建的类实例 */
-- (id)init
+- (instancetype)init
 {
     self = [super init];
-    if (self = [super init])
+    if (self)
     {
         [self defaultInit];
     }
